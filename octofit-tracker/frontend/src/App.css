@@ -1,0 +1,117 @@
+
+body {
+  background: linear-gradient(135deg, #f0f4f9 0%, #e0e7ef 100%);
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  color: #2c3e50;
+}
+
+
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #0d253f 0%, #1e90ff 100%) !important;
+  box-shadow: 0 2px 8px rgba(30, 144, 255, 0.1);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.navbar-brand:hover, .navbar-nav .nav-link.active {
+  color: #ffd700 !important;
+}
+
+.container h1, .container h2, .container h3, .container .display-4, .container .display-5 {
+  color: #1e90ff;
+  font-weight: 700;
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px rgba(30, 144, 255, 0.08);
+  border: none;
+}
+
+.card-body {
+  background: #fff;
+  border-radius: 1rem;
+}
+
+.table {
+  background: #f8fbff;
+  color: #2c3e50;
+}
+
+.table thead {
+  background: #1e90ff;
+  color: #fff;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #eaf3fb;
+}
+
+.btn-primary, .btn-success, .btn-info, .btn-warning, .btn-secondary {
+  border-radius: 2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 8px rgba(30, 144, 255, 0.08);
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #1e90ff 0%, #0d253f 100%);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #0d253f;
+}
+
+.App-link, a {
+  color: #1e90ff;
+  text-decoration: underline;
+}
+
+.App-link:hover, a:hover {
+  color: #ffd700;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
